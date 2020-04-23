@@ -18,7 +18,7 @@ while play:
 
  ## Easy game level:
     if game_level == "E":
-        print("Guess for a number between 1 - 10")
+        print("Guess a number between 1 - 10")
         print("You are to make the right guess within: " + str(guess_limit) + " guesses ")
         guess_left = guess_limit
         while guess_count < guess_limit:
@@ -50,7 +50,7 @@ while play:
 ##Medium game level
     if game_level == "M":
         guess_left = guess_limit
-        print(user_name + "," " guess for a number between 1 - 20")
+        print("Guess a number between 1 - 20")
         ## Number of Guess (es) allow per session
         print("You are to make the right guess within " + str(guess_limit) + " guesses ")
         while guess_count < guess_limit:
@@ -82,7 +82,7 @@ while play:
 
 ## Hard game level
     if game_level == "H":
-        print(user_name + "," " guess for a number between 1 - 50")
+        print("Guess a number between 1 - 50")
         print("You are to make the right guess within: " + str(guess_limit) + " guesses ")
         guess_left = guess_limit
         while guess_count < guess_limit:
